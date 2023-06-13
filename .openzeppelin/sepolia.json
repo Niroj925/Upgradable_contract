@@ -1,0 +1,72 @@
+{
+  "manifestVersion": "3.2",
+  "admin": {
+    "address": "0xcf6cEf9537Aee886260cC442Cd29f5C7007bFfFc",
+    "txHash": "0x288b388a9f3435ae7f5fb65d86c7733b8df308bbd89e26bee77ac3760d0de2e9"
+  },
+  "proxies": [
+    {
+      "address": "0x28D41a4F9a628F762629484D45707A0704FE90dC",
+      "txHash": "0x2b96c0f0a9e03fd69c7fd926b82c5cbb66fb9f4076a395f1798a290eaf8300b0",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x0368de62363A2DE276B8c99604E6E35944f1135e",
+      "txHash": "0xbd7cbf949430c970648956c267f06bb461c00451f18269fb0462cc0d55df9853",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x0113E20d8b716086a124a4897f679d1335B4f1a9",
+      "txHash": "0x96acbd15e8ed95b477741796df0e1cd19785bd45905edf579c195caf3f1b042b",
+      "kind": "transparent"
+    }
+  ],
+  "impls": {
+    "cba9f8cf52e3c449631a04ea218a6cedcaf7c366669cfc257c89a008266c768f": {
+      "address": "0x93AA66763B7113FA79C39fDc9aB70a92d95111E7",
+      "txHash": "0x164dd38d3aada254d8582b04e31cdc7811bebc53b3f75c59e82d15d8c07709f0",
+      "layout": {
+        "solcVersion": "0.8.18",
+        "storage": [
+          {
+            "label": "value",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_uint256",
+            "contract": "Boxv2",
+            "src": "contracts/Boxv2.sol:8"
+          }
+        ],
+        "types": {
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          }
+        }
+      }
+    },
+    "c7e8a23064d1bef43162090cc1af8468c94307ac785f86c85f9204580b223ed2": {
+      "address": "0xAF13aAa2117ab655778a8206d18128E83a739EcD",
+      "txHash": "0x9782d944872f473e9f0b2396ad298914c35edf1117d958330dd5d8c6ef8bb68a",
+      "layout": {
+        "solcVersion": "0.8.18",
+        "storage": [
+          {
+            "label": "value",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_uint256",
+            "contract": "Boxv2",
+            "src": "contracts/Boxv2.sol:8"
+          }
+        ],
+        "types": {
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          }
+        }
+      }
+    }
+  }
+}
